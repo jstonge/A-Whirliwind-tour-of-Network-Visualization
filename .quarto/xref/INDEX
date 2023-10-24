@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "9f971586"
+  },
+  "intro.qmd": {
+    "intro.html": "f7f2ac25"
+  },
+  "summary.qmd": {
+    "summary.html": "b781fde3"
+  },
+  "references.qmd": {
+    "references.html": "10b9f5fb"
+  },
+  "read_data.qmd": {
+    "read_data.html": "13648c31"
+  },
+  "centrality.qmd": {
+    "centrality.html": "de4198c8"
+  },
+  "clustering.qmd": {
+    "clustering.html": "0567e792"
+  },
+  "01_read_data.qmd": {
+    "01_read_data.html": "1b8a9838"
+  },
+  "plotting.qmd": {
+    "plotting.html": "2bfefb07"
+  },
+  "gallery.qmd": {
+    "gallery.html": "db6410c6"
+  },
+  "paleo.qmd": {
+    "paleo.html": "0ec682dc"
+  }
+}

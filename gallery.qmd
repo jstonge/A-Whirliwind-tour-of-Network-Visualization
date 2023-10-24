@@ -1,0 +1,21 @@
+---
+title: "Art gallery"
+format:
+  html:
+    code-fold: false
+    toc: true
+    number-sections: false
+date: today
+editor: visual
+---
+
+## Sex networks
+
+```{r}
+#| label: fig-quarto-flow
+#| echo: false
+#| out-width: "75%"
+#| fig.cap: "[https://www.nature.com/articles/35082140/figures/1](https://www.nature.com/articles/35082140/figures/1)"
+
+knitr::include_graphics("images/41586_2001_Article_BF35082140_Fig1_HTML.jpg")
+```

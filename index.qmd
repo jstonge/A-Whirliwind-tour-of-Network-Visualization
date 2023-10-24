@@ -1,0 +1,81 @@
+# Preface {.unnumbered}
+
+> cyn·i·cal (/ˈsinək(ə)l/): doubtful as to whether something will happen or whether it is worthwhile.
+
+There are many guides to network analysis out there. Those are often _enthusiastic_ about the power of networks; they start by (i) noting how networks are all around us, and (ii) how network science emerged as the natural set of (mathematical) tools to study them. As such, they provide a sense of coherence into the field of network science. In truth, when using networks as practical tools, the process can be quite messy. The ambition here is to put in one place the wisdom that results from embracing our doubts about network analysis. What doubts? 
+
+ - Do networks even exist; we always make choice about how to represent them. There is no end to this branching process, underminig the confidence in our analysis.
+ - What happens when the communities we discover clash with the metadata of our networks?
+ - Things can get messy fast, what if we need _hierarchical higher-order temporal multilayerd degree corrected stochastic block models_ (HHOTMDCSBM) to solve our problems? 
+ - Many tools look nice when applied with (small-scale) social networks. How do they generalize with protein-protein interactions/brain/twitter networks?
+
+The takeaway is the same than any other model-based approach at the moment; to make your way through the mess, you need to be clear about what you are doing, your assumptions and why you are doing it.
+
+The second benefit of stepping away from the usual narrative is the freedom to focus on deepening our comprehension of network analysis, prioritizing depth over breadth. As Grant Sanderson from [3Blue1Brown](https://www.3blue1brown.com/) puts it, I want you to feel that you could have discovered central ideas to network analysis. As such, we are gonna use all the power of the front-end dev tools and interactive data analysis to make the ideas come alive.
+
+Finally, we won't shy away from making connection to the rest of maths. The big advantage here is that by doing so, we can more easily prepare students to integrate other tools from probability theory and linear algebra to think about how to best integrate model in our toolkit.
+
+My notes are similar in spirit to:
+
+ - [Revisiting the foundations of network analysis](https://science.sciencemag.org/content/325/5939/414)
+ - [Statistics Done Wrong: The woefully complete guide](https://www.statisticsdonewrong.com/)
+
+## Do networks even exist? 
+
+```{r}
+#| label: fig-clauset
+#| echo: false
+#| out-width: "75%"
+#| fig-cap: "Clauset et al. 2015 Fig. 1"
+
+knitr::include_graphics("images/clauset.jpeg")
+```
+
+The type of your graph is always an assumption of your making. In the figure above, Clauset and colleagues drawn from theories in sociology to justify the directed edges, aka when institution A hires a PhD from institution B, this is a signal of endorsment from A to B. 
+
+We are talking about institutions here, not people. Thus, the authors are willing to imbue "institution" with intentionality, endorsing each other. Could we deconstruct institutions at department level, looking to explain the whole in part by hiring committes?! 
+
+Or perhaps at individual-level, with the set of endorsments on a hiring committe sums up in a decision of endorsing a candidate?
+
+<!-- ### Motivating example 1: Mutualist network
+
+blablabh
+
+### Motivating example 2: Backboning
+
+blablabh -->
+
+## Uncynical guides:
+
+> These books/notes are uncynical in that they start by (i) noting how networks are all around us, and (ii) how network science emerge as the natural set of (mathematical) tools to study them.
+
+ - @menczer_first_2020 ([github](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master)): Great book with accompanying code to do the basics of network analysis in NetworkX. It feels refreshing to have examples drawn
+
+ - @newman_networks_2018: Mandatory reference (no books get [19K citations](https://scholar.google.ca/citations?user=rQ68pVwAAAAJ&hl=en) without becoming some kind of obligatory reference)
+ - [Network Analysis and Modeling CSCI 5352, Fall 2022](https://aaronclauset.github.io/courses/5352/): [Aaron Clauset's](https://aaronclauset.github.io/aboutme.htm) notes on how to do networks right.
+- [@kolaczyk_statistical_2009](https://pdfs.semanticscholar.org/130d/eaff056f5c8907e8b3bed9eb62be418c53bb.pdf)
+
+## Networks are cool, actually
+
+- Creativity:
+  - [Curious Minds: The Power of Connection](https://mitpress.mit.edu/9780262547147/curious-minds/)
+- Neurolinguistics
+  - [Using network science to map what Montréal bilinguals talk about across languages and communicative context](https://www.sciencedirect.com/science/article/abs/pii/S0911604419302015?via%3Dihub)
+- Faculty hiring market:
+  - [Systematic inequality and hierarchy in faculty hiring networks](https://www.science.org/doi/10.1126/sciadv.1400005)
+- Hierarchy:
+  - [Quantifying hierarchy and dynamics in US faculty hiring and retention](https://www.nature.com/articles/s41586-022-05222-x)
+- Survey:
+  - [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data.](https://doi.org/10.1093/jrsssa/qnac004)
+- Network talks:
+  - [Larremore's 2023 Erdos-Renyi Prize Lecture](https://drive.google.com/file/d/1shQw0nw_Cjxw7TG1Vz625S67wmiNwyZA/view)
+- Citation analysis:
+  - [Choosing to grow a graph: Modeling network formation as discrete choice](https://arxiv.org/pdf/1811.05008.pdf)
+
+```{r}
+#| label: fig-quarto-flow
+#| echo: false
+#| out-width: "75%"
+
+knitr::include_graphics("images/overgoor_table1.png")
+```

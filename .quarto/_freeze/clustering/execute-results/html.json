@@ -1,0 +1,16 @@
+{
+  "hash": "2341ad4248bdd14a0fd94b7df5dd0cc5",
+  "result": {
+    "markdown": "---\ntitle: \"clustering\"\nformat:\n  html:\n    code-fold: false\n    toc: true\ndate: today\neditor: visual\n---\n\n\n# Reading data\n\nReading data is an undderated skill. Sometime it is easy.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n`geom_smooth()` using formula = 'y ~ x'\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: Removed 37 rows containing non-finite values (`stat_smooth()`).\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: Removed 37 rows containing missing values (`geom_point()`).\n```\n:::\n\n::: {.cell-output-display}\n![](clustering_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "clustering_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

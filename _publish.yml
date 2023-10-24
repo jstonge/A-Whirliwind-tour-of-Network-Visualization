@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 8b40aea4-821e-4640-bc97-f121dd13ef84
+      url: 'https://jstonge.quarto.pub/a-cynical-primer-to-network-analysis'

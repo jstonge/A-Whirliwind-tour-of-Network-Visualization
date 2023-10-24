@@ -1,0 +1,14 @@
+{
+  "hash": "665cf45e6eab7ddd6eeb46be153a6eb4",
+  "result": {
+    "markdown": "---\ntitle: \"Art gallery\"\nformat:\n  html:\n    code-fold: false\n    toc: true\n    number-sections: false\ndate: today\neditor: visual\n---\n\n\n## Sex networks\n\n\n::: {.cell}\n::: {.cell-output-display}\n![[https://www.nature.com/articles/35082140/figures/1](https://www.nature.com/articles/35082140/figures/1)](images/41586_2001_Article_BF35082140_Fig1_HTML.jpg){#fig-quarto-flow width=75%}\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

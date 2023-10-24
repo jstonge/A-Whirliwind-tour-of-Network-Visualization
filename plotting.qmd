@@ -1,0 +1,11 @@
+---
+title: "Visualizing networks, as long as it doesn't mislead you."
+format:
+  html:
+    code-fold: false
+    toc: true
+    number-sections: false
+date: today
+editor: visual
+---
+

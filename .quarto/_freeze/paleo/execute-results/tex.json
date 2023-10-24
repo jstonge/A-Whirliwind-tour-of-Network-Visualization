@@ -1,0 +1,20 @@
+{
+  "hash": "38f419aff1f5b3009a7eee2e3b6649aa",
+  "result": {
+    "markdown": "---\ntitle: \"The Old Gods and the New\"\nformat:\n  html:\n    code-fold: false\n    toc: true\n    number-sections: false\ndate: today\neditor: visual\n---\n\n\n\nBefore Newman and Barabási, there were social scientists (@borgatti_analyzing_2018). You have `NetSci` on the one hand, and the `Sunbelt` on the other one. This is a fight about the old (social) gods and the New(man). The main difference, it seems to me, is about whether you think about networks verbally or mathematically. Given that, you get the following (heated) argument; social scientists getting pissy at physicists when they say that they started network science, while physicists think they are right because, before the 1990s, networks were merely described in words.\n\nAnyway, here are artefacts of the old world that I still think are awesome. \n\n## the Seven Bridges of Königsberg\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![[https://www.nature.com/articles/35082140/figures/1](https://www.nature.com/articles/35082140/figures/1)](images/konigsberg.png){#fig-1 width=75%}\n:::\n:::\n\n\n\n## first graders\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![First Graders](images/moreno.png){#fig-2 width=75%}\n:::\n:::",
+    "supporting": [
+      "paleo_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

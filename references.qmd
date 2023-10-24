@@ -1,0 +1,29 @@
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+# Data sources
+
+Network catalogues:
+
+ - [http://konect.cc/](http://konect.cc/)
+ - [https://icon.colorado.edu/#!/networks](https://icon.colorado.edu/#!/networks)
+ - [https://networks.skewed.de/](https://networks.skewed.de/)
+ - [http://www-personal.umich.edu/~mejn/netdata/](http://www-personal.umich.edu/~mejn/netdata/)
+ - [http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm](http://vlado.fmf.uni-lj.si/pub/networks/data/Ucinet/UciData.htm)
+ - [https://www.cs.cornell.edu/~arb/data/](https://www.cs.cornell.edu/~arb/data/)
+
+Books:
+
+- [https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/datasets](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/datasets)
+- [http://networksciencebook.com/translations/en/resources/data.html](http://networksciencebook.com/translations/en/resources/data.html)
+- [Network analysis made simple](https://ericmjl.github.io/Network-Analysis-Made-Simple/): I remember starting my network analysis journey with Eric Ma's online tutorials. He put them into this simple book, being very careful about how he introduces the code. This is a great resource for newcomers. 
+
+ Kaggle:
+
+- [https://www.kaggle.com/datasets/mylesoneill/game-of-thrones](https://www.kaggle.com/datasets/mylesoneill/game-of-thrones)
+
+# Guide to other guides:
+
+ - [https://guides.library.jhu.edu/datavisualization/network](https://guides.library.jhu.edu/datavisualization/network)

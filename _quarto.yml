@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "A cynical primer to network analysis"
+  author: "Jonathan St-Onge"
+  date: "2023-10-22"
+  chapters:
+    - index.qmd
+    - read_data.qmd
+    - centrality.qmd
+    - clustering.qmd
+    - plotting.qmd
+    - gallery.qmd
+    - paleo.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

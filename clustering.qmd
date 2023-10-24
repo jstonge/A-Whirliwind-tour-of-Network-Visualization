@@ -1,0 +1,39 @@
+---
+title: "Searching for communities, should they be there"
+format:
+  html:
+    code-fold: false
+    toc: true
+    number-sections: false
+date: today
+editor: visual
+---
+
+Alternative titles from `GPT4`:
+```
+    "Detecting patterns in a sea of noise"
+    "Unearthing communities amidst overwhelming distractions"
+    "Isolating clusters in a cacophony of data"
+    "Sifting through the noise to identify meaningful groups"
+    "Discerning communities in the din of information"
+```
+
+I mean, do communities even exist? Its all about seeing a signal where there is none.
+
+The Boogeyman of modularity:
+
+- [https://social.skewed.de/@tiago/110303348191572767](https://social.skewed.de/@tiago/110303348191572767)
+- [https://skewed.de/tiago/blog/modularity-harmful](https://skewed.de/tiago/blog/modularity-harmful)
+- [https://reticular.hypotheses.org/1924](https://reticular.hypotheses.org/1924)
+
+Ok how do people do it anyway?
+
+### Modularity (descriptive)
+
+
+### SBM (inferential)
+
+
+## Uncynical view of community detection
+
+ - [Larremore's Large-scale structures in networks: Hidden communities and latent hierarchies](https://drive.google.com/file/d/1A1dtxrEitT4PfNvThMg1ak7jr5vXcq2I/view)
